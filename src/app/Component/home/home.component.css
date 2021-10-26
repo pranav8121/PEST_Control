@@ -1,0 +1,56 @@
+body{
+    background-color: gray;
+  }
+  .image {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .back{
+      background-image: url("../../../assets/image/240_F_318922637_yIjzYNzNQsU6KZupFizYWor6nsoxqNff.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .call{
+      margin-right: -25px;
+      margin-bottom: 150px;
+      float: right;
+    transform: rotate(270deg);
+  }
+
+  .user_card {
+    height: 200px;
+    width: 250px;
+    margin-top:200px;
+    margin-bottom: auto;
+    background: #fd5757;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.brand_logo_container {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -75px;
+    border-radius: 50%;
+    background: #fd5757;
+    /* border:  white 2px solid; */
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+}
+  
